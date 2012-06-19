@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="1.0.0.4" name="3ArabSn0w.exe" publicKeyToken="2004598743077a82" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="icon-3rab-z.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="3ArabSn0w" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="3ArabSn0w.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- Options du manifeste de contrôle de compte d'utilisateur
+             Si vous souhaitez modifier le niveau du contrôle de compte d'utilisateur Windows, remplacez le nœud 
+
+             requestedExecutionLevel par l'une des propositions suivantes.
+        <requestedExecutionLevel  level="asInvoker"  uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator"  uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable"  uiAccess="false" />
+
+            La spécification du nœud requestedExecutionLevel désactivera la virtualisation de fichiers et du Registre.
+            Si vous souhaitez utiliser la virtualisation de fichiers et du Registre pour la compatibilité 
+            descendante, supprimez le noeud requestedExecutionLevel.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="3ArabSn0w.exe" size="386560">
+      <assemblyIdentity name="3ArabSn0w" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>9/818jyCjXVxCaFTBtkH23fshPE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="icon-3rab-z.ico" size="57894">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>/fq8pJXUk9NzcA7ecLzW+YGUIbw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Une liste de toutes les versions de Windows avec laquelle cette application peut fonctionner. Windows sélectionnera automatiquement l'environnement le plus compatible.-->
+      <!-- Si votre application est conçue pour fonctionner avec Windows 7, supprimez les commentaires du nœud supportedOS suivant-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=SAMY-PC\SAMY" issuerKeyHash="2387dba3e177e7a0fd100ccd891151f5f03bf322" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>6by7OqxK08DSFHt8/+1BHbqQWIo=</DigestValue></Reference></SignedInfo><SignatureValue>e6WQBTN/n+tj3mZmkrtfp2Amgb038yHpTxVVcNYlTxdfQv3rmvtyPBuE3+oPEaIf1xKCGSuvfA5ikynki1LpImB10cLlNthqHWfBM02twET5LeUHf6JKZYVqOkwaKOd4ojEtxWDcefHrs3XmrfRJOkMrVk1QweVm6rdoPGT7ALw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>n02f+YKGOaIjwpJHg2pGsKS20SdaPmNw4h3tGEyvt4+YwMXkXkeauF14e8fbFikmI7dT0X3dx9G9/3cBrDaG4TGxywR29uXW3RNdhKyf1XxZ+mbFt7oBhf59lZRsSWVpzIqtz5F078wSUikF1lZr07YY39Tx92sBAxuWuxunOu0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8a5890ba1d41edff7c7b14d2c0d34aac3abbbce9" Description="" Url=""><as:assemblyIdentity version="1.0.0.4" name="3ArabSn0w.exe" publicKeyToken="2004598743077a82" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SAMY-PC\SAMY</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>4cROHY5jSfmPs51cyZ6YnTyJRnI=</DigestValue></Reference></SignedInfo><SignatureValue>GQxI80IlxGpERSlnVQdZWTCo6NhsKN/wUPGjsZ/6IaFZJ2+MUpZttWXQINnDzcNkVilCI9Lagf7ZduJiRJKLmJy5YnWdiWwBc2KTW0s00Zd6NRMasIN/g9eK8ESHt045+118jG99Kztihwj8c2N11cV8m+YBwTJmRCA/6NAB3Ig=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>n02f+YKGOaIjwpJHg2pGsKS20SdaPmNw4h3tGEyvt4+YwMXkXkeauF14e8fbFikmI7dT0X3dx9G9/3cBrDaG4TGxywR29uXW3RNdhKyf1XxZ+mbFt7oBhf59lZRsSWVpzIqtz5F078wSUikF1lZr07YY39Tx92sBAxuWuxunOu0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQRSiEZEPzNrtGgy9W+bmijzANBgkqhkiG9w0BAQUFADAjMSEwHwYDVQQDHhgAUwBBAE0AWQAtAFAAQwBcAFMAQQBNAFkwHhcNMTIwNTI0MjEyMjE4WhcNMTMwNTI1MDMyMjE4WjAjMSEwHwYDVQQDHhgAUwBBAE0AWQAtAFAAQwBcAFMAQQBNAFkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJ9Nn/mChjmiI8KSR4NqRrCkttEnWj5jcOId7RhMr7ePmMDF5F5HmrhdeHvH2xYpJiO3U9F93cfRvf93Aaw2huExscsEdvbl1t0TXYSsn9V8Wfpmxbe6AYX+fZWUbEllacyKrc+RdO/MElIpBdZWa9O2GN/U8fdrAQMblrsbpzrtAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEABS/zDe+lRm6+O7pdTfs4nnQLLysuT4x++J/haXwLQZSVHb3BnL8Djt4PoukEWUVOOGqxR8kwXVVKmxFALTN/sdxd1jjX2fZUe55Guyc1IKEhOMXAhsEkNgjV/rTtU1PeCb944LdnF/r2aberH5qYWD2+KwgXDuKhy/EcPbBdJao=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
